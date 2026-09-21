@@ -150,7 +150,11 @@ def train_model(
                 # Log artifacts
                 mlflow.log_artifact(str(report_file))
                 mlflow.log_artifact(str(metrics_file))
-                mlflow.sklearn.log_model(pipeline, "model")
+                # Log model artifact (supports MLflow 3.x and earlier)
+                try:
+                    mlflow.sklearn.log_model(pipeline, name="model")
+                except TypeError:
+                    mlflow.sklearn.log_model(pipeline, "model")
                 print("MLflow tracking successfully completed.")
         except Exception as e:
             print(f"Notice: MLflow logging encountered an issue: {e}")

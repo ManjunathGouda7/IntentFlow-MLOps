@@ -1,0 +1,84 @@
+text,intent
+"hi",greeting
+"hello",greeting
+"hey",greeting
+"good morning",greeting
+"good afternoon",greeting
+"good evening",greeting
+"hey there, how are you?",greeting
+"hello customer support",greeting
+"hi team, hope you are well",greeting
+"hey everyone",greeting
+"hello there",greeting
+"hi, I need some help today",greeting
+"bye",goodbye
+"goodbye",goodbye
+"see you later",goodbye
+"talk to you soon",goodbye
+"have a wonderful day",goodbye
+"thanks for your help, bye",goodbye
+"that is all, goodbye",goodbye
+"catch you later",goodbye
+"signing off now",goodbye
+"have a good one",goodbye
+"bye bye, thank you",goodbye
+"cancel my subscription",cancel_subscription
+"i want to cancel my membership",cancel_subscription
+"please stop my auto renewal",cancel_subscription
+"how do I terminate my account?",cancel_subscription
+"cancel my premium plan",cancel_subscription
+"stop recurring charges and cancel my plan",cancel_subscription
+"i do not want to continue my subscription",cancel_subscription
+"please close and cancel my account",cancel_subscription
+"opt out of monthly subscription",cancel_subscription
+"end my paid membership immediately",cancel_subscription
+"where is my order?",order_status
+"track my package",order_status
+"what is the status of my order #12345?",order_status
+"has my order shipped yet?",order_status
+"when will my delivery arrive?",order_status
+"order tracking information",order_status
+"i have not received my shipment yet",order_status
+"check delivery status for my order",order_status
+"can you tell me where my parcel is?",order_status
+"expected delivery date for my item",order_status
+"i want a refund",refund_request
+"please refund my purchase",refund_request
+"can i get my money back?",refund_request
+"how do i request a refund for this order?",refund_request
+"the product was defective, give me a refund",refund_request
+"i was billed incorrectly and need a refund",refund_request
+"return item and issue money back",refund_request
+"please process a full refund to my card",refund_request
+"money back guarantee claim",refund_request
+"i returned the package, where is my refund?",refund_request
+"why was I charged twice on my card?",billing_inquiry
+"incorrect charge on my credit card statement",billing_inquiry
+"i want to update my payment method",billing_inquiry
+"can you send me the invoice for last month?",billing_inquiry
+"billing statement breakdown question",billing_inquiry
+"why did my monthly bill increase?",billing_inquiry
+"how do i change my credit card details?",billing_inquiry
+"there is an unrecognized fee on my account",billing_inquiry
+"payment receipt request",billing_inquiry
+"my card was declined, how can I pay?",billing_inquiry
+"i cannot log into my account",technical_support
+"password reset link is not working",technical_support
+"the mobile app keeps crashing on startup",technical_support
+"getting a 500 internal server error",technical_support
+"error message: authentication failed",technical_support
+"the dashboard page is not loading properly",technical_support
+"cannot reset my two-factor authentication",technical_support
+"system bug when submitting the form",technical_support
+"i am locked out of my account",technical_support
+"website button is unresponsive and broken",technical_support
+"great service, thank you!",praise
+"amazing customer support experience",praise
+"you guys are fantastic and so fast",praise
+"thank you so much for resolving my issue",praise
+"outstanding work by your team",praise
+"very impressed with the quality and speed",praise
+"super helpful representative, five stars!",praise
+"love this product, keep up the great work",praise
+"excellent assistance, really appreciate it",praise
+"the best customer care I have experienced",praise

@@ -1,0 +1,11 @@
+services:
+  intent-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: intent-classifier-service
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+    restart: unless-stopped
